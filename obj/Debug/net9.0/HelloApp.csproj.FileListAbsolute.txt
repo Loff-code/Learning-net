@@ -12,3 +12,4 @@
 /home/swaggo/HelloApp/obj/Debug/net9.0/HelloApp.pdb
 /home/swaggo/HelloApp/obj/Debug/net9.0/HelloApp.genruntimeconfig.cache
 /home/swaggo/HelloApp/obj/Debug/net9.0/ref/HelloApp.dll
+/home/swaggo/HelloApp/obj/Debug/net9.0/HelloApp.sourcelink.json
