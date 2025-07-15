@@ -2,7 +2,10 @@
 {
     private string name;
     private int age;
-    public Person() { }
+    public Person(string name)
+    {
+        this.name = name;
+    }
     public void setName(string name)
     {
         this.name = name;
