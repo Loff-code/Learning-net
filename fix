@@ -1,0 +1,15 @@
+static void selectProfessor()
+{
+    response = stringPeople();
+    printUI([""], response);
+    int select = int.Parse(Console.ReadLine()) - 1;
+    if (select <= people.Count && select >= 0)
+    {
+        response = "";
+        changeProfessor(select);
+    }
+    else
+    {
+        response = "Select valid number";
+    }
+}

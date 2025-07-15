@@ -1,9 +1,12 @@
-﻿public class Person
+﻿
+public class Person
 {
     private string name;
     private int age;
+    public static int count = 0;
     public Person(string name)
     {
+        count++;
         this.name = name;
     }
     public void setName(string name)
